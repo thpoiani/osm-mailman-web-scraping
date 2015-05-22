@@ -1,0 +1,18 @@
+{
+  "name": "osm-mailman-web-scraping",
+  "version": "0.0.0",
+  "description": "ferramenta para captura de emails enviados para o mailing list do OpenStreetMap",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "phantomjs ./app/index.js"
+  },
+  "author": {
+    "name": "Thiago Henrique Poiani",
+    "email": "thpoiani@usp.br",
+    "url": "https://thpoiani.com.br"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "phantomjs": "^1.9.17"
+  }
+}
