@@ -1,6 +1,6 @@
 {
   "name": "osm-mailman-web-scraping",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ferramenta para captura de emails enviados para o mailing list do OpenStreetMap",
   "main": "app/index.js",
   "scripts": {
