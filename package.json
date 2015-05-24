@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "json2csv": "^2.3.0",
     "phantomjs": "^1.9.17"
   }
 }

@@ -17,9 +17,6 @@ module.exports = function(url, year, month, callback) {
     var pipermails = phantomjs.evaluate(getPiperMails),
         threads    = getThreads(pipermails, year, month);
 
-        // slice to test
-        threads = threads.slice(3,4);
-
     getSubjects(threads, callback);
   });
 }
